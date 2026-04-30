@@ -15,3 +15,10 @@
 ## CONFIGURAÇÃO DE USUÁRIO GIT
 git config --global user.name "Gustavo Monteiro"
 git config --global user.email "gumonteiro39@gmail.com"
+
+# COMANDOS DO AMBIENTE VIRTUAL
+1. python -m venv venv -> Gera um ambiente virtual do tipo venv
+2. .\venv\Scripts\activate -> Ativa o ambiente virtual
+3. pip install django -> Instala o django
+4. django-admin startproject sistema .
+5. python manage.py runserver
